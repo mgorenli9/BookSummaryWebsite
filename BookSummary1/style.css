@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar begins */
+.navbar-brand{
+    margin-left: 50px;
+}
+
+li {
+    margin-left: 25px;
+}
+
+li:last-child{
+    margin-right: 50px;
+}
+
+/* navbar ends*/ 
+
+
+/*slider */ 
+.resimSlider{
+    height: 605px;
+    width: 100px;
+}
+
+body{
+    padding-top: 55px;
+}
+
+
+/* books */ 
+
+.ayrac{ 
+    font-weight: bold;
+    border:none;
+    border-top:3px solid rgb(0, 0, 0);
+    max-width: 250px;
+   margin: 25px auto; 
+   
+}
+
+.books h1 {
+    margin-top: 40px;
+}
+
+.golgeEffect>img:hover{
+    opacity: 0.8;
+}
+
+
+/* ABOUT */ 
+
+.about{
+    margin-bottom:150px;
+}
+
+.about-title{
+    margin: 60px 0;
+}
+
+.about-title h2{
+    width: 100%; 
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 05.rem;
+}
+
+.about-title h2::after{ 
+    content: "";
+    width: 90px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    display: block;
+    margin-top: 7px;
+}
+
+.about-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.about-img{
+    width: 50%;
+   
+}
+.about-img img{
+    width: 500px;
+    height: 450px;
+    object-fit: cover; 
+}
+
+
+
+.books-img-size img{
+    height: 400px;
+}
+
+.about-text{
+    width: 40%;
+}
+.about-text p{
+    font-size: 17px;
+    text-align: center;
+}
+
+
+
+
+
+/* footer */
+
+.footer{
+   
+    background-color:rgb(32, 30, 30);
+    height: 200px;
+    color:white;  
+}
+
+.icons{
+    margin-top: 40px;
+    margin: 40px auto;
+}
+.icons a{
+    color: #f4f4f7;
+    text-decoration: none; /* link altındaki çizgiyi kaldırır */
+}
+
+
+/*contactt */
+
+.container-iletisim{
+    padding:45px;
+    width: 60%;
+}
+.d-flex{
+    font-size: 18px;
+}
+.d-flex p{
+    margin-left: 10px;
+    
+}
+
